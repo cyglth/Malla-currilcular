@@ -37,3 +37,31 @@ button:hover {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   text-align: left;
 }
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.materia {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.aprobada {
+  background-color: #b2f2bb; /* verde suave */
+  color: #155724;
+}
+
+.cursando {
+  background-color: #ffe066; /* amarillo */
+  color: #856404;
+}
+
+.noDisponible {
+  background-color: #dee2e6; /* gris */
+  color: #6c757d;
+}
